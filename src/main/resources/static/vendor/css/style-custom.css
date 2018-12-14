@@ -1,0 +1,125 @@
+    /* Main application stylesheet */
+/**
+ * Made By clthck
+ */
+/* custom partial scss */
+/* Common Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+nav ul a,
+nav .brand-logo {
+  color: #444; }
+
+p {
+  line-height: 2rem; }
+
+.button-collapse {
+  color: #26a69a; }
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9); }
+
+.parallax-container .section {
+  width: 100%; }
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%; }
+
+  #index-banner .section {
+    top: 10%; } }
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0; } }
+.icon-block {
+  padding: 0 15px; }
+
+.icon-block .material-icons {
+  font-size: inherit; }
+
+footer.page-footer {
+  margin: 0;
+  padding-top: 0; }
+
+.success {
+  background-color: #00897b; }
+
+.error {
+  background-color: #ff8a80; }
+
+main {
+  display: flex;
+  flex-flow: column nowrap; }
+  main .container,
+  main .container > .section {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1; }
+
+[type="checkbox"].no-label + label {
+  padding-left: 10px; }
+
+.main-progress {
+  margin: 0;
+  position: absolute;
+  display: none; }
+
+.no-text-transform {
+  text-transform: none; }
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By clthck
+ */
+.btn-select-match {
+  padding: 10px;
+  text-transform: none;
+  height: auto;
+  opacity: 0.6;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9); }
+  .btn-select-match.active {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+
+.btn-select-match:hover {
+  background-color: #b2dfdb;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1); }
+
+.clips-table-for-player {
+  display: none; }
+  .clips-table-for-player.active {
+    display: table; }
+
+/*# sourceMappingURL=application.css.map */
